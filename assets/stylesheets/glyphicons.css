@@ -1,0 +1,15 @@
+.icon.information {
+	background: url('../icons/glyphicons_195_circle_info.png')
+}
+
+.icon.attention {
+	background: url('../icons/glyphicons_196_circle_exclamation_mark.png');
+}
+
+.icon.success {
+	background: url('../icons/glyphicons_193_circle_ok.png');
+}
+
+.icon.failure {
+	background: url('../icons/glyphicons_192_circle_remove.png');
+}
