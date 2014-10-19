@@ -64,7 +64,7 @@ input:hover {
 .messagebox {
 
 	color: #000;
-	background-color: #dbd2b6;
+	background-color: #FFFE64;
 
 	padding: 1em;
 
@@ -93,7 +93,7 @@ input:hover {
 
 .list {
 
-
+	margin: 0.5em 0;
 }
 
 .list.vertical li.header {
@@ -132,7 +132,19 @@ input:hover {
 
 .list.horizontal {
 
+	display: inline-block;
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+}
 
+.list.horizontal li {
+
+	float: left;
+	white-space: nowrap;
+
+	margin: 2px;
+	padding: 2px;
 }
 
 #frame {
