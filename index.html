@@ -18,6 +18,10 @@
 	<link href="assets/stylesheets/layout-web.css" rel="stylesheet" type="text/css" media="screen">
 	<link href="assets/stylesheets/javascript.css"  rel="stylesheet" type="text/css" media="all">
 
+	<link href="assets/stylesheets/vertical-dropdown-menu.css" rel="stylesheet" type="text/css">
+
+	<script language="javascript" type="text/javascript" src="assets/javascript/vertical-dropdown-menu.js"></script>
+
 	<meta name="keywords" content="xrl, Web Layouts">
 	<meta name="author" content="Robert Barisic">
 </head>
@@ -35,38 +39,75 @@
 		</div>
 
 		<div id="content">
-			<h2>Content-Area</h2>
-			<p>This is the content area. You could apply lots of fancy rules here. So let's just see where this is all going!</p>
-			<h2>Horizontal List</h2>
-				<ul class="list horizontal">
-					<li>
-						<input type="button" name="button1" value="Button 1">
+				<h2>Vertical Dropdown Menu with Javascript</h2>
+			<div class="unit">
+				<ul class="dropdown-menu">
+
+					<li><span class="heading" id="cat1">
+						<script>dropper('cat1')</script>
+							This is the heading.
+
+						</span>
+						<ul id="dropdown_content">
+							<li>
+								<span class="icon mini float-left information"></span>
+								<a href="#">This is an Index Point.</a>
+							</li>
+							<li>
+								<span class="icon mini float-left success"></span>
+								<a href="#">This is another one.</a>
+							</li>
+							<li class="green">
+								<span class="icon mini float-left attention"></span>
+								<a href="#">This Index Point is differently colored!</a>
+							</li>
+						</ul>
 					</li>
-					<li>
-						<input type="button" name="button2" value="Button 2">
+
+					<li><span class="heading" id="cat2">
+							<script>dropper('cat2')</script>
+							Category 2
+
+						</span>
+						<ul id="dropdown_content">
+							<li>
+								<span class="icon mini float-left information"></span>
+								<a href="#">This is an Index Point.</a>
+							</li>
+							<li>
+								<span class="icon mini float-left success"></span>
+								<a href="#">This is an Index Point.</a>
+							</li>
+							<li>
+								<span class="icon mini float-left attention"></span>
+								<a href="#">This is an Index Point.</a>
+							</li>
+						</ul>
 					</li>
-					<li>
-						<input type="button" name="button3" value="Button 3">
+
+					<li><span class="heading" id="cat3">
+							<script>dropper('cat3')</script>
+							Settings
+
+						</span>
+						<ul id="dropdown_content">
+							<li>
+								<span class="icon mini float-left information"></span>
+								<a href="#">User CP</a>
+							</li>
+							<li>
+								<span class="icon mini float-left success"></span>
+								<a href="#">Control Panel</a>
+							</li>
+							<li>
+								<span class="icon mini float-left attention"></span>
+								<a href="#">Log Out</a>
+							</li>
+						</ul>
 					</li>
-					<li>
-						<input type="button" name="button4" value="Button 4">
-					</li>
+
 				</ul>
-				<h2>Vertical List</h2>
-				<ul class="list vertical border">
-					<li>
-						<input type="button" name="button1" value="Button 1">
-					</li>
-					<li>
-						<input type="button" name="button2" value="Button 2">
-					</li>
-					<li>
-						<input type="button" name="button3" value="Button 3">
-					</li>
-					<li>
-						<input type="button" name="button4" value="Button 4">
-					</li>
-				</ul>
+			</div>
 		</div>
 	</div>
 

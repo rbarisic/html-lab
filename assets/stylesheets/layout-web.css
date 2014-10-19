@@ -81,6 +81,16 @@ input:hover {
 	height: 26px;
 }
 
+.icon.mini {
+
+	width: 16px;
+	height: 16px;
+
+	background-size: cover;
+
+	margin-right: 0.5em;
+}
+
 .icon.float-left {
 
 	float: left;
@@ -145,6 +155,13 @@ input:hover {
 
 	margin: 2px;
 	padding: 2px;
+}
+
+.unit {
+
+	padding: 1em;
+	border: 1px solid #aaa;
+	margin-bottom: 2em;
 }
 
 #frame {
