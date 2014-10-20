@@ -50,15 +50,28 @@ input {
 	border-radius: 8px;
 	color: #333;
 	border: 1px solid #333;
+
+	text-align: right;
+}
+
+input[type="button"] {
+
 	border-bottom: 3px solid #333;
 }
 
-input:hover {
+input[type="button"]:hover {
 
 	color: #fff;
 	background: #7CA67C;
 	border-bottom: 3px solid #16402E;
 
+}
+
+input[type="color"] {
+
+	font-size: 1em;
+	height: 2em;
+	width: 3em;
 }
 
 .messagebox {
@@ -79,6 +92,16 @@ input:hover {
 	background-repeat: no-repeat;
 	width: 26px;
 	height: 26px;
+}
+
+.icon.mini {
+
+	width: 16px;
+	height: 16px;
+
+	background-size: cover;
+
+	margin-right: 0.5em;
 }
 
 .icon.float-left {
@@ -147,6 +170,22 @@ input:hover {
 	padding: 2px;
 }
 
+.unit {
+
+	padding: 1em;
+	border: 1px solid #aaa;
+	margin-bottom: 2em;
+
+	background-color: #ccc;
+}
+
+.unit .unit {
+
+	color: #333;
+	background-color: #eee;
+	border: 1px solid #000;
+}
+
 #frame {
 
 	width: 80%;
@@ -209,4 +248,16 @@ input:hover {
 #footer a:hover {
 
 	color: white;
+}
+
+#calculator {
+
+}
+
+#calculator tr td input[type="button"] {
+
+	width: 3em;
+	height: 3em;
+
+	text-align: center;
 }
